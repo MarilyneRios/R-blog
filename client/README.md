@@ -25,3 +25,9 @@ https://flowbite-react.com/
 npm i flowbite-react
 ````
 
+## react-icons
+https://react-icons.github.io/react-icons/
+
+````
+npm install react-icons --save
+````
