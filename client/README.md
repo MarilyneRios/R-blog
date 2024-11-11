@@ -17,3 +17,11 @@ https://reactrouter.com/en/main
 ````
 npm install react-router-dom 
 ````
+
+## Flowbite
+https://flowbite-react.com/
+
+````
+npm i flowbite-react
+````
+
