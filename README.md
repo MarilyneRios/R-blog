@@ -11,3 +11,7 @@
 2. **création du dossier api** à la racine du projet
 
 3. **npm i express** à la racine du projet
+
+## DataBase
+
+npm i mongoose
