@@ -4,6 +4,7 @@ import connectDB from './config/db.js';
 import dotenv from 'dotenv';
 
 //importation des routes
+import userRoutes from './routes/user.route.js'
 
 // Charger les variables d'environnement
 dotenv.config();
@@ -22,6 +23,4 @@ app.listen (port, () => {
 
 
 // test API route
-app.get('/test', (req, res) => {
-    res.json ({message: 'API is working !'})
-});
+app.use('/api/user', userRoutes);
