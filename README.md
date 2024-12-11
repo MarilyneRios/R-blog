@@ -28,3 +28,6 @@ solution : ajoutez un fichier .gitattributes à la racine de votre projet
 
 ````
 ///////////////////////////////////////////////////////////////////////
+
+Tester les API avec thunder Client, ou postman ou insomnia
+

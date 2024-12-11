@@ -4,7 +4,8 @@ import connectDB from './config/db.js';
 import dotenv from 'dotenv';
 
 //importation des routes
-import userRoutes from './routes/user.route.js'
+import userRoutes from './routes/user.route.js';
+import authRoutes from './routes/auth.route.js';
 
 // Charger les variables d'environnement
 dotenv.config();
@@ -16,7 +17,10 @@ connectDB();
 const app = express();
 const port = process.env.PORT || 3000;
 
-// serveur sur le port process.env.PORT
+// Middleware pour analyser les données JSON dans les requêtes entrantes
+app.use(express.json());
+
+//  Démarre le serveur et écoute le port ur process.env.PORT
 app.listen (port, () => {
     console.log(`server is running on port ${port} !`);
 });
@@ -24,3 +28,4 @@ app.listen (port, () => {
 
 // test API route
 app.use('/api/user', userRoutes);
+app.use('/api/auth', authRoutes);
