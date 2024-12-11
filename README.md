@@ -14,4 +14,6 @@
 
 ## DataBase
 
-npm i mongoose
+**npm i mongoose** à la racine du projet
+
+Penser à cacher les datas sensibles : **npm install dotenv --save**
