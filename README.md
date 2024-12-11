@@ -31,3 +31,8 @@ solution : ajoutez un fichier .gitattributes à la racine de votre projet
 
 Tester les API avec thunder Client, ou postman ou insomnia
 
+4. **cryptage** du pwd avec bcrypt.js
+https://www.npmjs.com/package/bcryptjs
+
+npm install bcryptjs
+npm audit fix
