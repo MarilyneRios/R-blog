@@ -20,3 +20,8 @@ app.listen (port, () => {
     console.log(`server is running on port ${port} !`);
 });
 
+
+// test API route
+app.get('/test', (req, res) => {
+    res.json ({message: 'API is working !'})
+});
